@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BluetoothApp</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="turn_on">Turn On</string>
+    <string name="discovrable">Discovrable</string>
+    <string name="list_paired">Get list of paired Devices</string>
+</resources>

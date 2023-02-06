@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <TextView
+       android:id="@+id/bluetoothEtat"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:padding="5dp"
+       android:textAlignment="center"
+       android:textColor="#000"
+       android:textSize="20sp"/>
+
+    <!--bleutooth icon (on/off)-->
+    <ImageView
+        android:id="@+id/bluetoothIco"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_bth_off"/>
+
+    <!--Button :bleutooth trun on -->
+    <Button
+        android:id="@+id/TurnOnbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/turn_on"
+        android:minWidth="200dp"/>
+
+    <!--Button :bleutooth trun off -->
+    <Button
+        android:id="@+id/turnOffBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/turn_off"
+        android:minWidth="200dp"/>
+
+    <!--Button :make bluetooth discovrable -->
+    <Button
+        android:id="@+id/discovrableBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/discovrable"
+        android:minWidth="200dp"/>
+
+    <!--Button :Get list of paired devices -->
+    <Button
+        android:id="@+id/listPaired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/list_paired"
+        android:minWidth="200dp"/>
+
+    <!--textview :show list of paired devices -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pairedTv"
+        android:padding="5dp"
+        android:textColor="#000"
+        />
+
+
+
+</LinearLayout>
+
